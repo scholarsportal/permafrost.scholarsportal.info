@@ -1,0 +1,157 @@
+{{ "<!-- Pricing Section -->" | safeHTML }}
+<section id="pricing" class="bg-light-gray">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{ with .Site.Params.pricing.title }}{{ . | markdownify }}{{ end }}</h2>
+                <h3 class="section-subheading text-mutedwith ">{{ with .Site.Params.pricing.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+            </div>
+        </div>
+
+        <div class="table-responsive col-sm-8 col-sm-offset-2">
+
+            <h3>Setup</h3>
+            <p>$2500 @ 37 hours of systems and librarian time</p>
+
+            <p>Setup includes all initial systems and client support work to get the instance running.</p>
+
+            <p>Systems setup includes installation and configuration activities, including an optional connection to a local AtoM instance, and user creation.</p>
+
+            <p>Client support includes initial testing, consultation through a readiness and needs analysis interview process, an initial training session, consultation and recommendations regarding settings and usage during the first twelve weeks of the service, and access to workflow documentation and ingest tools.</p>
+
+            <p>Additional integrations such as DSpace, automated workflows or with local storage at additional cost based on hours worked.</p>
+
+            <h3>Training</h3>
+            (optional): $300 per day plus travel and expenses (in person); $65 per hour
+            online training.
+
+            <p>Includes additional training on using Archivematica after onboarding support such as consultation on workflows and best practices for specific materials, assistance in overseeing transfers, assistance in validating the results of test transfers.
+
+            <h3>Annual costs</h3>
+
+            <p>Billed for one instance of Archivematica on an annual basis. Additional instances available for the full price of hardware cost plus 50% of one-time setup and annual technical support costs.
+
+            <h4>Hardware</h4>
+
+            Small (2 cores / 4GB memory / 100 GB processing space) $700
+            Medium (4 cores / 8GB memory / 200 GB processing space) $1,400
+            Large (8 cores / 16GB memory / 400 GB processing space) $2,800
+
+            <h4>Storage</h4>
+
+            <p>Charged at the OCUL OLRC Rate. Permafrost participants do not have to be OLRC subscribers. Permafrost participants who are OCUL members will receive a single bill for total OLRC storage used.</p>
+
+            <ul>
+                <li>Per 1TB: $320 / year</li>
+                <li>5TB and up: $1,600 / year (includes OLRC membership)</li>
+            </ul>
+
+            <h4>Technical support</h4>
+
+            <p>Based on full time equivalent (FTE) student population statistics.</p>
+
+            <table class="table">
+                <tr>
+                    <td>Up to 5,000 FTE</td>
+                    <td>$1,000/year</td>
+                </tr>
+                <tr>
+                    <td>5,000-15,000 FTE</td>
+                    <td>$2,000/year</td>
+                </tr>
+                <tr>
+                    <td>15,000-30,000 FTE</td>
+                    <td>$4,000/year</td>
+                </tr>
+                <tr>
+                    <td>30,000-45,000 FTE</td>
+                    <td>$6,000/year</td>
+                </tr>
+                <tr>
+                    <td>45,000 FTE and up</td>
+                    <td>$8,000/year</td>
+                </tr>
+            </table>
+
+            <p>Technical support includes updates within six months of new releases; triaging and troubleshooting of errors and transfer failures; user management general monitoring and system maintenance.</p>
+
+        </div>
+
+        <!-- <div class="table-responsive col-sm-8 col-sm-offset-2">
+            <h4>OCUL Libraries</h4>
+            <table class="table">
+                <tr>
+                    <td>Base Subscription *</td>
+                    <td>$1600/year</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Additional Storage:</td>
+                </tr>
+                <tr>
+                    <td class="tab-indent">Per 1 TB</td>
+                    <td>$320/year</td>
+                </tr>
+                <tr>
+                    <td class="tab-indent">Per 10 TB</td>
+                    <td>$3100/year</td>
+                </tr>
+                <tr>
+                    <td class="tab-indent">Per 50 TB</td>
+                    <td>$15500/year</td>
+                </tr>
+                <tr>
+                    <td>Data Transfer Services **</td>
+                    <td>$75/hour</td>
+                </tr>
+                <tr>
+                    <td>Network Data Transfer Fees</td>
+                    <td>No Charge</td>
+                </tr>
+                <tr>
+                    <td>Tape Backup</td>
+                    <td>Pricing Available on Request</td>
+                </tr>
+            </table>
+            <br>
+            <h4>Other Canadian Libraries</h4>
+            <table class="table">
+                <tr>
+                    <td>Base Subscription *</td>
+                    <td>$3950/year</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Additional Storage:</td>
+                </tr>
+                <tr>
+                    <td class="tab-indent">Per 1 TB</td>
+                    <td>$790/year</td>
+                </tr>
+                <tr>
+                    <td class="tab-indent">Per 10 TB</td>
+                    <td>$7700/year</td>
+                </tr>
+                <tr>
+                    <td class="tab-indent">Per 50 TB</td>
+                    <td>$39500/year</td>
+                </tr>
+                <tr>
+                    <td>Data Transfer Services **</td>
+                    <td>$100/hour</td>
+                </tr>
+                <tr>
+                    <td>Network Data Transfer Fees</td>
+                    <td>No Charge</td>
+                </tr>
+                <tr>
+                    <td>Tape Backup</td>
+                    <td>Pricing Available on Request</td>
+                </tr>
+            </table>
+
+            <br>
+            <div>*  Includes 5TB of object storage, technical support from Scholars Portal staff, and voting representation on governance group (OCUL libraries only)</div><br>
+            <div>** From disk or tape to the cloud; Charged per hour of staff time</div>
+        </div> -->
+    </div>
+</section>

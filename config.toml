@@ -1,0 +1,335 @@
+# Site settings
+#baseurl = "http://localhost/permafrost/public/"
+#baseurl = "https://staticdev.scholarsportal.info/permafrost-public/"
+baseurl = "https://permafrost.scholarsportal.info/"
+title = "Permafrost"
+languageCode = "en-us"
+theme = "hugo-agency-theme"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) or
+	# most longer texts.
+	#
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Permafrost"
+	description = ""
+
+	# Since this template is static, the contact form uses www.formspree.io as a
+	# proxy. The form makes a POST request to their servers to send the actual
+	# email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+	email = "grant@scholarsportal.info"
+
+    # Link custom assets relative to /static
+    custom_css = ["css/custom.css"]
+    custom_js  = []
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Permafrost"
+		services = "Benefits"
+		about = "Features"
+		portfolio = "Use Cases"
+		team = "Team"
+		clients_list = "Partners"
+		pricing = "Pricing"
+		faq = "FAQ"
+		contact = "Contact"
+		img = "logo-notext.png"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #    url = "#"
+    #    name = ""
+    #    weight = 10
+
+    # postpended links
+    [[menu.postpend]]
+        url = ""
+        name = "Login <i class=\"fa fa-external-link\" aria-hidden=\"true\"></i>"
+        weight = 10
+
+
+	# Hero section
+	[params.hero]
+		# To change the background image of the hero, replace 'header-bg.jpg' in
+		# the 'static/img' folder.
+		title = "Hosted Digital Preservation with Permafrost"
+		subtitle = "Friendly interventions for long-term preservation"
+		buttonText = "Tell me more"
+
+		[[params.hero.logo]]
+			img = "logo.png"
+
+
+	# Benefits section
+	[params.services]
+    enable = true
+		title = "Benefits"
+		subtitle = ""
+
+        [[params.services.row]]
+
+            [[params.services.row.list]]
+                icon = "fa-users"
+                title = "Supported"
+                description = "Permafrost puts the importance of training and support front and center. Training resources and guides help you get started quickly and documentation and technical support keeps you rolling."
+
+            [[params.services.row.list]]
+                icon = "fa-server"
+                title = "Hosted"
+                description = "Scholars Portal installs, hosts and maintains the key technical components so you can focus on your core work."
+
+            [[params.services.row.list]]
+                icon = "fa-archive"
+                title = "Preserved"
+                description = "Standards-based, open source tools for preservation processing means that your collections will be maintained and accessible for the future."
+
+            [[params.services.row.list]]
+                icon = "fa-cloud"
+                title = "Stored"
+                description = "Access to the Ontario Library Research Cloud for storage means secure, affordable and reliable storage for preservation. Data is replicated three times between five data centers located at Ontario universities."
+
+    # Features section
+	[params.about]
+    enable = true
+		title = "Services"
+		subtitle = ""
+		endpoint = "[<br>Contact Us!](#contact)"
+
+		# The events will be listed from the top to the bottom.
+		# All images are stored under 'static/img/about'.
+		# Replace them with your own.
+
+		[[params.about.events]]
+			img = "archivematica.png"
+			title = "Archivematica"
+			description = "Permafrost’s central function is provisioning hosted instance(s) of the preservation package generator Archivematica, a standards-based workflow tool for producing preservation-worthy packages of data for the future. Multiple instances are available at reduced cost for institutions with a variety of needs."
+
+		[[params.about.events]]
+			img = "olrc-logo.png"
+			title = "OLRC"
+			description = "Participants access the Ontario Library Research Cloud for storage, a secure and affordable private cloud created by libraries in Ontario. Read more about the OLRC here."
+
+		[[params.about.events]]
+			img = ""
+			title = "Training"
+			description = "Training resources include initial onboarding and consultation sessions and a four-month hands-on consultation window. Additional training is available in person and online as needed."
+
+		[[params.about.events]]
+			img = ""
+			title = "Tools & resources"
+			description = "Permafrost includes additional tools for smoother workflows, alongside guides and documentation to make getting up and running easier."
+
+		[[params.about.events]]
+			img = ""
+			title = "Access"
+			description = "We support integration with locally-hosted AtoM instances by default so you can make your materials accessible to users."
+
+		[[params.about.events]]
+			img = ""
+			title = "Reporting"
+			description = "Information and statistics on stored packages is provided on a regular basis."
+
+
+	# Use Cases section
+	[params.portfolio]
+    enable = true
+		# All projects defined in their own files. You can find example projects
+		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+		# at the root of this Hugo site.
+		# For more information take a look at the README.
+		title = "Use Cases"
+		subtitle = ""
+
+		[params.portfolio.modal]
+			client = "Client"
+			date = "Date"
+			category = "Category"
+			buttonText = "Close"
+
+    # Pricing section - see layouts/partials/pricing.html
+    [params.pricing]
+    	enable = true
+    	title = "Pricing"
+    	subtitle = "How much does Permafrost cost?"
+
+   	# FAQ section
+   	[params.faq]
+   		enable = true
+   		title = "FAQ"
+   		subtitle = "Frequently Asked Questions"
+
+   		[[params.faq.questions]]
+   		question = "What is Archivematica?"
+   		answer = "[Archivematica](https://www.archivematica.org/en/) is an open-source tool for processing digital archival materials for long-term preservation and access, including born-digital and digitized content. Archivematica is developed by Artefactual Systems Inc. Its primary function is to process data using a series of linked tasks called microservices to create Archival Information Packages (AIPs) for preservation and Dissemination Information Packages (DIPs) for access. It performs actions using a centralized Format Policy Registry (FPR) which is fully customizable based on institutional preferences. Archivematica integrates many individual open source tools for digital preservation tasks, such as file format identification, characterization, validation and normalization, into a single workflow."
+		id = "01"
+
+   		[[params.faq.questions]]
+   		question = "What materials can Permafrost be used for?"
+   		answer = "Permafrost is intended for libraries and archives who need to preserve their digital assets so that they can be reliably maintained into the future. These can be born digital or digitized materials such as archival records, audiovisual materials, images, or text-based materials."
+		id = "02"
+
+   		[[params.faq.questions]]
+   		question = "What does an Archival Information Package (AIP) consist of?"
+   		answer = "An AIP consists of the original data objects and other materials that make up the original transfer, optionally normalized copies of data objects in preservation-friendly formats, submission documentation, logs, and a METS XML file describing the package’s contents and the actions performed on the contents as part of the Archivematica workflow."
+		id = "03"
+
+   		[[params.faq.questions]]
+   		question = "What does a Dissemination Information Package (DIP) consist of?"
+   		answer = "A DIP consists of access copies normalized according to rules set in Archivematica (such as a medium-sized jpg file created from a large tif file), thumbnails, and a copy of the METS file."
+		id = "04"
+
+		[[params.faq.questions]]
+		question = "What other tools does Permafrost provide?"
+		answer = "Permafrost provides lightweight tools for making Archivematica-friendly CSV files for metadata import and access to tools related to the OLRC, such as Swiftbrowser, a browser-based method of accessing stored packages. Additional tools are in development."
+		id = "05"
+
+		[[params.faq.questions]]
+		question = "What onboarding resources are provided?"
+		answer = "Onboarding with the service includes an initial needs assessment interview to benchmark the institution’s current capacity, document their needs, and set goals for uses of the service. This interview is followed by an introductory training session. Additional onboarding consultation lasts for the first twelve weeks of service use, and includes consultation on settings, transfer structure, metadata entry, connections to AtoM, file format policies, and validation of stored AIPs and DIPs."
+		id = "06"
+
+		[[params.faq.questions]]
+		question = "What training resources are provided?"
+		answer = "Initial onboarding training, including an introductory session to Archivematica and Permafrost is part of the service. Additional training following the onboarding period can be arranged in person or online at cost."
+		id = "07"
+
+		[[params.faq.questions]]
+		question = "What technical support is provided?"
+		answer = "Technical support is provided for troubleshooting transfer errors and failures, user creation and management, system monitoring and maintenance, and system updates within six months of new releases."
+		id = "08"
+
+		[[params.faq.questions]]
+		question = "Is Archivematica an access system or repository?"
+		answer = "No. Its main function is to produce well-formed data packages. It is not intended for end-users such as students or researchers and does not store the packages itself, though packages are accessible through the interface. Hence, it must be connected to independent storage, which is why it pairs beautifully with the OLRC, which provides access to scalable, redundant and replicated storage. <br><br> However, integration with locally-hosted instances of AccesstoMemory (AtoM) is part of the service. AtoM integration allows the deposit of digital objects and metadata in an AtoM instance, which is intended for use by the public to access archival descriptions and digital objects."
+		id = "09"
+
+   		[[params.faq.questions]]
+   		question = "What storage options do I have?"
+   		answer = "The default storage space is the Ontario Library Research Cloud, which provides secure and affordable storage replicated across three nodes in Ontario. Permafrost users do not have to be OLRC subscribers. Other storage integrations are possible at extra cost in consultation with Scholars Portal."
+		id = "10"
+
+   		[[params.faq.questions]]
+   		question = "What options do I have for giving access to preserved materials?"
+   		answer = "Integration with locally-hosted instances of AccesstoMemory (AtoM) are part of the service. AtoM integration allows the deposit of digital objects and metadata in AtoM.<br><br> Integrations with different access systems or repositories as transfer sources for data are also possible. Contact us for more information."
+		id = "11"
+
+   		[[params.faq.questions]]
+   		question = "Does Permafrost offer hosted AtoM instances?"
+   		answer = "Not at this time, but if you are interested in having AtoM hosted, please contact us."
+		id = "12"
+
+   		[[params.faq.questions]]
+   		question = "If I want to get my data out, can I?"
+   		answer = "Absolutely. Permafrost does not keep your data within any proprietary system - data is stored outside of the Archivematica itself and your use of the Permafrost service is not locked in. However, systems-created data such as indexes cannot be extracted for users, though this can be easily re-generated from the stored AIPs themselves."
+		id = "13"
+
+   		[[params.faq.questions]]
+   		question = "What is the difference between hardware sizes?"
+   		answer = "Archivematica runs on virtual machines that are hosted on servers at Scholars Portal. Not all institutions need a full-capacity machine running at all times. A large machine will be able to process larger-sized transfers or transfers with many files more quickly. A medium sized machine is suitable for transfers up to 5 GB in size. A small machine is suitable for transfers under 1 GB."
+		id = "14"
+
+   		[[params.faq.questions]]
+   		question = "I’m not a member of OCUL. Can I use Permafrost?"
+   		answer = "Permafrost is for the use of OCUL members only at this time. However, please contact us if you are interested in using this service in the future."
+		id = "15"
+
+
+	# Team section (disabled)
+	[params.team]
+    enable = false
+		title = ""
+		subtitle = ""
+		description = ""
+
+		# All team member's pictures are stored under 'static/img/team'.
+		# Replace them with your own too.
+		[[params.team.members]]
+			img = ""
+			name = ""
+			position = ""
+			social = [
+				["fa-twitter", "#"],
+				["fa-facebook", "#"],
+				["fa-linkedin", "#"]
+			]
+
+	# Partners section
+    [params.clients_list]
+        enable = false
+        title="Participating Institutions"
+        subtitle="The following institutions contributed financially and in kind to the development of the OLRC."
+
+    	# All the clients' logos are stored under 'static/img/logos'.
+    	# Replace them with your clients's logos.
+
+    	[[params.clients]]
+    		logo = "Carleton.jpg"
+    		link = "http://carleton.ca/"
+    		alt = "Carleton University"
+
+    	[[params.clients]]
+    		logo = "Guelph.jpg"
+    		link = "http://www.uoguelph.ca/"
+    		alt = "University of Guelph"
+
+
+	# Contact section
+	[params.contact]
+    enable = true
+		title = "Contact us"
+		subtitle  = "Get In Touch!"
+		buttonText = "Send message"
+
+		# 'warning' defines error messages for invalid inputs
+		[params.contact.form.name]
+			text = "Your Name *"
+			warning = "Please enter your name."
+
+		[params.contact.form.email]
+			text = "Your Email *"
+			warning = "Please enter your email address."
+
+		[params.contact.form.phone]
+			text = "Your Organization *"
+			warning = "Please enter your organization."
+
+		[params.contact.form.message]
+			text = "Your Message *"
+			warning = "Please enter a message."
+
+	# Footer section
+	[params.footer]
+    enable = true
+		copyright = "&copy; Ontario Council of University Libraries"
+    secondcopyright = "Scholars Portal"
+		logo = "ocul.png"
+    secondlogo = "sp.png"
+		link = "http://ocul.on.ca"
+    secondlink = "http://scholarsportal.info/"
+
+		[[params.footer.social]]
+			icon = "fa-twitter"
+			link = "https://twitter.com/scholarsportal"
+			alt = "twitter"
