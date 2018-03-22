@@ -44,7 +44,7 @@ googleAnalytics = ""
 	[params.navigation]
 		brand = "Permafrost"
 		services = "Benefits"
-		about = "Features"
+		about = "Services"
 		portfolio = "Use Cases"
 		team = "Team"
 		clients_list = "Partners"
@@ -82,6 +82,11 @@ googleAnalytics = ""
 			img = "logo.png"
 
 
+	[params.headtext]
+	enable = true
+		description = "Academic libraries and archives across Ontario are the custodians of a remarkable variety of unique materials that represent the collective memory of their institutions and communities. Increasingly, these materials exist in digital form: either acquired through purchase or donation, or created by the institution itself as university records or as the output of digitization projects. All of these heterogeneous digital objects require robust tools, systems and infrastructure for long-term preservation to ensure they remain accessible into the future.<br><br>Permafrost provisions a suite of tools, training and resources to enable members of the Ontario Council of University Libraries to begin actively processing digital objects for long-term preservation and access."
+
+
 	# Benefits section
 	[params.services]
     enable = true
@@ -90,25 +95,25 @@ googleAnalytics = ""
 
         [[params.services.row]]
 
+			[[params.services.row.list]]
+                icon = "fa-server"
+                title = "Hosted"
+                description = "Scholars Portal installs, hosts and maintains the key technical components so you can focus on your core work."
+
             [[params.services.row.list]]
                 icon = "fa-users"
                 title = "Supported"
                 description = "Permafrost puts the importance of training and support front and center. Training resources and guides help you get started quickly and documentation and technical support keeps you rolling."
 
             [[params.services.row.list]]
-                icon = "fa-server"
-                title = "Hosted"
-                description = "Scholars Portal installs, hosts and maintains the key technical components so you can focus on your core work."
-
-            [[params.services.row.list]]
-                icon = "fa-archive"
-                title = "Preserved"
-                description = "Standards-based, open source tools for preservation processing means that your collections will be maintained and accessible for the future."
-
-            [[params.services.row.list]]
                 icon = "fa-cloud"
                 title = "Stored"
                 description = "Access to the Ontario Library Research Cloud for storage means secure, affordable and reliable storage for preservation. Data is replicated three times between five data centers located at Ontario universities."
+
+			[[params.services.row.list]]
+                icon = "fa-archive"
+                title = "Preserved"
+                description = "Standards-based, open source tools for preservation processing means that your collections will be maintained and accessible for the future."
 
     # Features section
 	[params.about]
@@ -129,25 +134,25 @@ googleAnalytics = ""
 		[[params.about.events]]
 			img = "olrc-logo.png"
 			title = "OLRC"
-			description = "Participants access the Ontario Library Research Cloud for storage, a secure and affordable private cloud created by libraries in Ontario. Read more about the OLRC here."
+			description = "Participants access <a href='https://cloud.scholarsportal.info'>the Ontario Library Research Cloud</a> for storage, a secure and affordable private cloud created by libraries in Ontario."
 
 		[[params.about.events]]
-			img = ""
+			img = "placeholder-200x200.png"
 			title = "Training"
 			description = "Training resources include initial onboarding and consultation sessions and a four-month hands-on consultation window. Additional training is available in person and online as needed."
 
 		[[params.about.events]]
-			img = ""
+			img = "placeholder-200x200.png"
 			title = "Tools & resources"
 			description = "Permafrost includes additional tools for smoother workflows, alongside guides and documentation to make getting up and running easier."
 
 		[[params.about.events]]
-			img = ""
+			img = "atom.png"
 			title = "Access"
 			description = "We support integration with locally-hosted AtoM instances by default so you can make your materials accessible to users."
 
 		[[params.about.events]]
-			img = ""
+			img = "placeholder-200x200.png"
 			title = "Reporting"
 			description = "Information and statistics on stored packages is provided on a regular basis."
 
