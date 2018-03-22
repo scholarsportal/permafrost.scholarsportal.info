@@ -1,8 +1,8 @@
 modalID: 2
 title: Library Collections
-subtitle: sub
-img: placeholder.png
-preview: placeholder-preview.png
+subtitle: Preserving the library’s diverse digital stacks
+img: collections.jpg
+preview: collections-preview.jpg
 category: Use Cases
 description: "Permafrost is a great fit for libraries looking to properly preserve digital collections in libraries, whether they are born-digital or digitized materials.<br><br>
 
@@ -10,4 +10,4 @@ Over the past several decades, libraries have undertaken many large-scale digiti
 
 The creation and capture of born-digital library materials are also now a day-to-day process for most libraries. These include theses and dissertations, web archiving projects, and collections from government, map and data libraries, and more.<br><br>
 
-Integration with popular library repositories such as DSpace is also available at extra cost."
+Integration with library digital repositories such as DSpace is also available at extra cost."
