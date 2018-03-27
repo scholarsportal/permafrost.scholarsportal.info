@@ -75,7 +75,7 @@ googleAnalytics = ""
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
 		title = "Hosted Digital Preservation with Permafrost"
-		subtitle = "Friendly interventions for long-term preservation"
+		subtitle = "Friendly interventions for long-term preservation."
 		buttonText = "Tell me more"
 
 		[[params.hero.logo]]
@@ -129,30 +129,30 @@ googleAnalytics = ""
 		[[params.about.events]]
 			img = "archivematica.png"
 			title = "Archivematica"
-			description = "Permafrost’s central function is provisioning hosted instance(s) of the preservation package generator Archivematica, a standards-based workflow tool for producing preservation-worthy packages of data for the future. Multiple instances are available at reduced cost for institutions with a variety of needs."
+			description = "Permafrost’s central function is provisioning hosted instance(s) of the preservation package generator <a href='https://www.archivematica.org/en/' target='_blank'>Archivematica</a>, a standards-based workflow tool for producing preservation-worthy packages of data for the future. Multiple instances are available at reduced cost for institutions with a variety of needs."
 
 		[[params.about.events]]
 			img = "olrc-logo.png"
 			title = "OLRC"
-			description = "Participants access <a href='https://cloud.scholarsportal.info'>the Ontario Library Research Cloud</a> for storage, a secure and affordable private cloud created by libraries in Ontario."
+			description = "Participants access <a href='https://cloud.scholarsportal.info' target='_blank'>the Ontario Library Research Cloud</a> for storage, a secure and affordable private cloud created by libraries in Ontario."
 
 		[[params.about.events]]
-			img = "placeholder-200x200.png"
+			img = "training.png"
 			title = "Training"
 			description = "Training resources include initial onboarding and consultation sessions and a four-month hands-on consultation window. Additional training is available in person and online as needed."
 
 		[[params.about.events]]
-			img = "placeholder-200x200.png"
+			img = "resources.png"
 			title = "Tools & resources"
 			description = "Permafrost includes additional tools for smoother workflows, alongside guides and documentation to make getting up and running easier."
 
 		[[params.about.events]]
 			img = "atom.png"
 			title = "Access"
-			description = "We support integration with locally-hosted AtoM instances by default so you can make your materials accessible to users."
+			description = "We support integration with locally-hosted <a href='https://www.accesstomemory.org/en/' target='_blank'>Access to Memory (AtoM)</a> instances by default so you can make your materials accessible to users."
 
 		[[params.about.events]]
-			img = "placeholder-200x200.png"
+			img = "reporting.png"
 			title = "Reporting"
 			description = "Information and statistics on stored packages is provided on a regular basis."
 
@@ -186,79 +186,89 @@ googleAnalytics = ""
    		subtitle = "Frequently Asked Questions"
 
    		[[params.faq.questions]]
-   		question = "What is Archivematica?"
-   		answer = "[Archivematica](https://www.archivematica.org/en/) is an open-source tool for processing digital archival materials for long-term preservation and access, including born-digital and digitized content. Archivematica is developed by Artefactual Systems Inc. Its primary function is to process data using a series of linked tasks called microservices to create Archival Information Packages (AIPs) for preservation and Dissemination Information Packages (DIPs) for access. It performs actions using a centralized Format Policy Registry (FPR) which is fully customizable based on institutional preferences. Archivematica integrates many individual open source tools for digital preservation tasks, such as file format identification, characterization, validation and normalization, into a single workflow."
-		id = "01"
-
-   		[[params.faq.questions]]
    		question = "What materials can Permafrost be used for?"
    		answer = "Permafrost is intended for libraries and archives who need to preserve their digital assets so that they can be reliably maintained into the future. These can be born digital or digitized materials such as archival records, audiovisual materials, images, or text-based materials."
+		id = "01"
+
+		[[params.faq.questions]]
+   		question = "What services does Scholars Portal provide as part of Permafrost?"
+   		answer = "Scholars Portal provides:<br><br> - Setup, installation and maintenance of Archivematica instance(s) <br>- Initial onboarding, testing and setup support, including a readiness interview/consultation and introductory training session <br>- Ongoing technical troubleshooting support<br>- Training resources, guides and tools<br>- Reporting data on stored packages<br>-Assistance with performing preservation actions over time."
 		id = "02"
+
+		[[params.faq.questions]]
+   		question = "What are the responsibilities of the subscribing institution?"
+   		answer = "The preserving institution:<br><br> - Determines the scope and structure of content to be preserved<br> - Actively uses the service to process digital content through the workflow<br> - Resources and manages staff use of, and access to, the service<br> - Determines preservation policies and procedures with input from Scholars Portal where requested<br> - Validates outputs against internal or external standards Initiates preservation actions over time"
+		id = "03"
+
+   		[[params.faq.questions]]
+   		question = "What is Archivematica?"
+   		answer = "<a href='https://www.archivematica.org/en/' target='_blank'>Archivematica</a> is an open-source tool for processing digital archival materials for long-term preservation and access, including born-digital and digitized content. Archivematica is developed and maintained by Artefactual Systems Inc. Its primary function is to process data using a series of linked tasks called microservices to create Archival Information Packages (AIPs) for preservation and Dissemination Information Packages (DIPs) for access. It performs actions using a centralized Format Policy Registry (FPR) that is fully customizable based on institutional preferences. Archivematica integrates many individual open source tools for digital preservation tasks, such as file format identification, characterization, validation and normalization, into a single workflow."
+		id = "04"
 
    		[[params.faq.questions]]
    		question = "What does an Archival Information Package (AIP) consist of?"
-   		answer = "An AIP consists of the original data objects and other materials that make up the original transfer, optionally normalized copies of data objects in preservation-friendly formats, submission documentation, logs, and a METS XML file describing the package’s contents and the actions performed on the contents as part of the Archivematica workflow."
-		id = "03"
+   		answer = "An AIP consists of the original data objects and other materials that make up the original transfer, optionally normalized copies of data objects in preservation-friendly formats, submission documentation, logs, and a METS XML file describing the package’s contents, the relationships between these contents, and the actions performed on the contents as part of the Archivematica workflow."
+		id = "05"
 
    		[[params.faq.questions]]
    		question = "What does a Dissemination Information Package (DIP) consist of?"
    		answer = "A DIP consists of access copies normalized according to rules set in Archivematica (such as a medium-sized jpg file created from a large tif file), thumbnails, and a copy of the METS file."
-		id = "04"
+		id = "06"
 
 		[[params.faq.questions]]
 		question = "What other tools does Permafrost provide?"
-		answer = "Permafrost provides lightweight tools for making Archivematica-friendly CSV files for metadata import and access to tools related to the OLRC, such as Swiftbrowser, a browser-based method of accessing stored packages. Additional tools are in development."
-		id = "05"
+		answer = "Permafrost provides lightweight tools for making Archivematica-friendly CSV files for descriptive metadata import and access to tools related to the OLRC, such as Swiftbrowser, a browser-based method of transfering data into Archivematica and accessing stored packages. Additional tools are in development."
+		id = "07"
 
 		[[params.faq.questions]]
 		question = "What onboarding resources are provided?"
-		answer = "Onboarding with the service includes an initial needs assessment interview to benchmark the institution’s current capacity, document their needs, and set goals for uses of the service. This interview is followed by an introductory training session. Additional onboarding consultation lasts for the first twelve weeks of service use, and includes consultation on settings, transfer structure, metadata entry, connections to AtoM, file format policies, and validation of stored AIPs and DIPs."
-		id = "06"
+		answer = "Onboarding with the service includes an initial needs assessment interview to benchmark the participant's current capacity, document their needs, and set goals for uses of the service. This interview is followed by an introductory training session. Additional onboarding consultation lasts for the first twelve weeks of service use, and includes consultation on settings, transfer structure, metadata entry, connections to AtoM, file format policies, and validation of stored AIPs and DIPs."
+		id = "08"
 
 		[[params.faq.questions]]
 		question = "What training resources are provided?"
 		answer = "Initial onboarding training, including an introductory session to Archivematica and Permafrost is part of the service. Additional training following the onboarding period can be arranged in person or online at cost."
-		id = "07"
+		id = "09"
 
 		[[params.faq.questions]]
 		question = "What technical support is provided?"
 		answer = "Technical support is provided for troubleshooting transfer errors and failures, user creation and management, system monitoring and maintenance, and system updates within six months of new releases."
-		id = "08"
+		id = "10"
 
 		[[params.faq.questions]]
 		question = "Is Archivematica an access system or repository?"
-		answer = "No. Its main function is to produce well-formed data packages. It is not intended for end-users such as students or researchers and does not store the packages itself, though packages are accessible through the interface. Hence, it must be connected to independent storage, which is why it pairs beautifully with the OLRC, which provides access to scalable, redundant and replicated storage. <br><br> However, integration with locally-hosted instances of AccesstoMemory (AtoM) is part of the service. AtoM integration allows the deposit of digital objects and metadata in an AtoM instance, which is intended for use by the public to access archival descriptions and digital objects."
-		id = "09"
-
-   		[[params.faq.questions]]
-   		question = "What storage options do I have?"
-   		answer = "The default storage space is the Ontario Library Research Cloud, which provides secure and affordable storage replicated across three nodes in Ontario. Permafrost users do not have to be OLRC subscribers. Other storage integrations are possible at extra cost in consultation with Scholars Portal."
-		id = "10"
-
-   		[[params.faq.questions]]
-   		question = "What options do I have for giving access to preserved materials?"
-   		answer = "Integration with locally-hosted instances of AccesstoMemory (AtoM) are part of the service. AtoM integration allows the deposit of digital objects and metadata in AtoM.<br><br> Integrations with different access systems or repositories as transfer sources for data are also possible. Contact us for more information."
+		answer = "No. Its main function is to produce well-formed data packages. It is not intended for end-users such as students or researchers and does not store the packages itself, though packages are accessible through the interface. Hence, it must be connected to independent storage, which is why it pairs beautifully with the <a href='https://cloud.scholarsportal.info' target='_blank'>OLRC</a>, which provides access to secure, affordable and reliable storage. <br><br> However, integration with locally-hosted instances of <a href='https://www.accesstomemory.org/en/' target='_blank'>AccesstoMemory (AtoM)</a> is part of the service. AtoM integration allows the deposit of digital objects and metadata in an AtoM instance, which is intended for use by the public to access archival descriptions and digital objects."
 		id = "11"
 
    		[[params.faq.questions]]
-   		question = "Does Permafrost offer hosted AtoM instances?"
-   		answer = "Not at this time, but if you are interested in having AtoM hosted, please contact us."
+   		question = "What storage options do I have?"
+   		answer = "The default storage space is the <a href='https://cloud.scholarsportal.info' target='_blank'>Ontario Library Research Cloud</a>, which provides secure and affordable storage replicated across three nodes in Ontario. Permafrost users do not have to be OLRC subscribers. Other storage integrations are possible at extra cost in consultation with Scholars Portal."
 		id = "12"
+
+   		[[params.faq.questions]]
+   		question = "What options do I have for giving access to preserved materials?"
+   		answer = "Integration with locally-hosted instances of <a href='https://www.accesstomemory.org/en/' target='_blank'>Access to Memory (AtoM)</a> are part of the service. AtoM integration allows the deposit of digital objects and metadata in AtoM.<br><br> Integrations with different access systems or repositories as transfer sources for data are also possible. Contact us for more information."
+		id = "13"
+
+   		[[params.faq.questions]]
+   		question = "Does Permafrost offer hosted AtoM instances?"
+   		answer = "Not at this time, but if you are interested in having AtoM hosted, please [contact us](#contact)."
+		id = "14"
 
    		[[params.faq.questions]]
    		question = "If I want to get my data out, can I?"
    		answer = "Absolutely. Permafrost does not keep your data within any proprietary system - data is stored outside of the Archivematica itself and your use of the Permafrost service is not locked in. However, systems-created data such as indexes cannot be extracted for users, though this can be easily re-generated from the stored AIPs themselves."
-		id = "13"
+		id = "15"
 
    		[[params.faq.questions]]
    		question = "What is the difference between hardware sizes?"
    		answer = "Archivematica runs on virtual machines that are hosted on servers at Scholars Portal. Not all institutions need a full-capacity machine running at all times. A large machine will be able to process larger-sized transfers or transfers with many files more quickly. A medium sized machine is suitable for transfers up to 5 GB in size. A small machine is suitable for transfers under 1 GB."
-		id = "14"
+		id = "16"
 
    		[[params.faq.questions]]
    		question = "I’m not a member of OCUL. Can I use Permafrost?"
-   		answer = "Permafrost is for the use of OCUL members only at this time. However, please contact us if you are interested in using this service in the future."
-		id = "15"
+   		answer = "Permafrost is for the use of OCUL members only at this time. However, please [contact us](#contact) if your organization is interested in using this service."
+		id = "17"
 
 
 	# Team section (disabled)

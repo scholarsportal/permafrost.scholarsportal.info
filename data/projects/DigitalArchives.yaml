@@ -8,4 +8,4 @@ description: "Permafrost has been designed for the use of archives and special c
 
 The tools and services that make up Permafrost will assist archives in achieving capacity for processing digital donations for long-term preservation and access. This includes processes for creating metadata to accompany digital objects into the future, advice on file format policies and normalization rules, and tools for ongoing maintenance and monitoring.<br><br>
 
-Integration with locally hosted instances of AtoM is also available to ensure that digital objects are accessible to users."
+Integration with locally-hosted instances of AtoM is also available to ensure that digital objects are accessible to users."
