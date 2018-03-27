@@ -129,12 +129,12 @@ googleAnalytics = ""
 		[[params.about.events]]
 			img = "archivematica.png"
 			title = "Archivematica"
-			description = "Permafrost’s central function is provisioning hosted instance(s) of the preservation package generator <a href='https://www.archivematica.org/en/' target='_blank'>Archivematica</a>, a standards-based workflow tool for producing preservation-worthy packages of data for the future. Multiple instances are available at reduced cost for institutions with a variety of needs."
+			description = "Permafrost’s central function is provisioning hosted instance(s) of the preservation package generator <a href='https://www.archivematica.org/en/'>Archivematica</a>, a standards-based workflow tool for producing preservation-worthy packages of data for the future. Multiple instances are available at reduced cost for institutions with a variety of needs."
 
 		[[params.about.events]]
 			img = "olrc-logo.png"
 			title = "OLRC"
-			description = "Participants access <a href='https://cloud.scholarsportal.info' target='_blank'>the Ontario Library Research Cloud</a> for storage, a secure and affordable private cloud created by libraries in Ontario."
+			description = "Participants access <a href='https://cloud.scholarsportal.info'>the Ontario Library Research Cloud</a> for storage, a secure and affordable private cloud created by libraries in Ontario."
 
 		[[params.about.events]]
 			img = "training.png"
@@ -149,7 +149,7 @@ googleAnalytics = ""
 		[[params.about.events]]
 			img = "atom.png"
 			title = "Access"
-			description = "We support integration with locally-hosted <a href='https://www.accesstomemory.org/en/' target='_blank'>Access to Memory (AtoM)</a> instances by default so you can make your materials accessible to users."
+			description = "We support integration with locally-hosted <a href='https://www.accesstomemory.org/en/'>Access to Memory (AtoM)</a> instances by default so you can make your materials accessible to users."
 
 		[[params.about.events]]
 			img = "reporting.png"
@@ -202,7 +202,7 @@ googleAnalytics = ""
 
    		[[params.faq.questions]]
    		question = "What is Archivematica?"
-   		answer = "<a href='https://www.archivematica.org/en/' target='_blank'>Archivematica</a> is an open-source tool for processing digital archival materials for long-term preservation and access, including born-digital and digitized content. Archivematica is developed and maintained by Artefactual Systems Inc. Its primary function is to process data using a series of linked tasks called microservices to create Archival Information Packages (AIPs) for preservation and Dissemination Information Packages (DIPs) for access. It performs actions using a centralized Format Policy Registry (FPR) that is fully customizable based on institutional preferences. Archivematica integrates many individual open source tools for digital preservation tasks, such as file format identification, characterization, validation and normalization, into a single workflow."
+   		answer = "<a href='https://www.archivematica.org/en/'>Archivematica</a> is an open-source tool for processing digital archival materials for long-term preservation and access, including born-digital and digitized content. Archivematica is developed and maintained by Artefactual Systems Inc. Its primary function is to process data using a series of linked tasks called microservices to create Archival Information Packages (AIPs) for preservation and Dissemination Information Packages (DIPs) for access. It performs actions using a centralized Format Policy Registry (FPR) that is fully customizable based on institutional preferences. Archivematica integrates many individual open source tools for digital preservation tasks, such as file format identification, characterization, validation and normalization, into a single workflow."
 		id = "04"
 
    		[[params.faq.questions]]
@@ -237,17 +237,17 @@ googleAnalytics = ""
 
 		[[params.faq.questions]]
 		question = "Is Archivematica an access system or repository?"
-		answer = "No. Its main function is to produce well-formed data packages. It is not intended for end-users such as students or researchers and does not store the packages itself, though packages are accessible through the interface. Hence, it must be connected to independent storage, which is why it pairs beautifully with the <a href='https://cloud.scholarsportal.info' target='_blank'>OLRC</a>, which provides access to secure, affordable and reliable storage. <br><br> However, integration with locally-hosted instances of <a href='https://www.accesstomemory.org/en/' target='_blank'>AccesstoMemory (AtoM)</a> is part of the service. AtoM integration allows the deposit of digital objects and metadata in an AtoM instance, which is intended for use by the public to access archival descriptions and digital objects."
+		answer = "No. Its main function is to produce well-formed data packages. It is not intended for end-users such as students or researchers and does not store the packages itself, though packages are accessible through the interface. Hence, it must be connected to independent storage, which is why it pairs beautifully with the <a href='https://cloud.scholarsportal.info'>OLRC</a>, which provides access to secure, affordable and reliable storage. <br><br> However, integration with locally-hosted instances of <a href='https://www.accesstomemory.org/en/'>AccesstoMemory (AtoM)</a> is part of the service. AtoM integration allows the deposit of digital objects and metadata in an AtoM instance, which is intended for use by the public to access archival descriptions and digital objects."
 		id = "11"
 
    		[[params.faq.questions]]
    		question = "What storage options do I have?"
-   		answer = "The default storage space is the <a href='https://cloud.scholarsportal.info' target='_blank'>Ontario Library Research Cloud</a>, which provides secure and affordable storage replicated across three nodes in Ontario. Permafrost users do not have to be OLRC subscribers. Other storage integrations are possible at extra cost in consultation with Scholars Portal."
+   		answer = "The default storage space is the <a href='https://cloud.scholarsportal.info'>Ontario Library Research Cloud</a>, which provides secure and affordable storage replicated across three nodes in Ontario. Permafrost users do not have to be OLRC subscribers. Other storage integrations are possible at extra cost in consultation with Scholars Portal."
 		id = "12"
 
    		[[params.faq.questions]]
    		question = "What options do I have for giving access to preserved materials?"
-   		answer = "Integration with locally-hosted instances of <a href='https://www.accesstomemory.org/en/' target='_blank'>Access to Memory (AtoM)</a> are part of the service. AtoM integration allows the deposit of digital objects and metadata in AtoM.<br><br> Integrations with different access systems or repositories as transfer sources for data are also possible. Contact us for more information."
+   		answer = "Integration with locally-hosted instances of <a href='https://www.accesstomemory.org/en/'>Access to Memory (AtoM)</a> are part of the service. AtoM integration allows the deposit of digital objects and metadata in AtoM.<br><br> Integrations with different access systems or repositories as transfer sources for data are also possible. Contact us for more information."
 		id = "13"
 
    		[[params.faq.questions]]
