@@ -65,7 +65,7 @@ googleAnalytics = ""
 
     # postpended links
     [[menu.postpend]]
-        url = ""
+        url = "https://spotdocs.scholarsportal.info/display/PER/Permafrost+Home"
         name = "Login <i class=\"fa fa-external-link\" aria-hidden=\"true\"></i>"
         weight = 10
 
