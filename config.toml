@@ -1,7 +1,7 @@
 # Site settings
 #baseurl = "http://localhost/permafrost/public/"
-#baseurl = "https://staticdev.scholarsportal.info/permafrost-public/"
-baseurl = "https://permafrost.scholarsportal.info/"
+baseurl = "https://staticdev.scholarsportal.info/permafrost-public/"
+#baseurl = "https://permafrost.scholarsportal.info/"
 title = "Permafrost"
 languageCode = "en-us"
 theme = "hugo-agency-theme"
@@ -128,12 +128,12 @@ googleAnalytics = ""
 		[[params.about.events]]
 			img = "archivematica.png"
 			title = "Archivematica"
-			description = "Permafrost’s central function is provisioning hosted instance(s) of the preservation package generator <a href='https://www.archivematica.org/en/'>Archivematica</a>, a standards-based workflow tool for producing preservation-worthy packages of data for the future. Multiple instances are available at reduced cost for institutions with a variety of needs."
+			description = "Permafrost’s central function is provisioning hosted instance(s) of the preservation package generator [Archivematica](https://www.archivematica.org/en/), a standards-based workflow tool for producing preservation-worthy packages of data for the future. Multiple instances are available at reduced cost for institutions with a variety of needs."
 
 		[[params.about.events]]
 			img = "olrc-logo.png"
 			title = "OLRC"
-			description = "Participants access <a href='https://cloud.scholarsportal.info'>the Ontario Library Research Cloud</a> for storage, a secure and affordable private cloud created by libraries in Ontario."
+			description = "Participants access [the Ontario Library Research Cloud](https://cloud.scholarsportal.info) for storage, a secure and affordable private cloud created by libraries in Ontario."
 
 		[[params.about.events]]
 			img = "training.png"
@@ -148,7 +148,7 @@ googleAnalytics = ""
 		[[params.about.events]]
 			img = "atom.png"
 			title = "Access"
-			description = "We support metadata-only integration with locally-hosted <a href='https://www.accesstomemory.org/en/'>Access to Memory (AtoM)</a> instances so you can make your materials accessible to users. Full AtoM integration workflows are in testing."
+			description = "We support metadata-only integration with locally-hosted [Access to Memory (AtoM)](https://www.accesstomemory.org/en/) instances so you can make your materials accessible to users. Full AtoM integration workflows are in testing."
 
 		[[params.about.events]]
 			img = "reporting.png"
@@ -201,7 +201,7 @@ googleAnalytics = ""
 
    		[[params.faq.questions]]
    		question = "What is Archivematica?"
-   		answer = "<a href='https://www.archivematica.org/en/'>Archivematica</a> is an open-source tool for processing digital archival materials for long-term preservation and access, including born-digital and digitized content. Archivematica is developed and maintained by Artefactual Systems Inc. Its primary function is to process data using a series of linked tasks called microservices to create Archival Information Packages (AIPs) for preservation and Dissemination Information Packages (DIPs) for access. It performs actions using a centralized Format Policy Registry (FPR) that is fully customizable based on institutional preferences. Archivematica integrates many individual open source tools for digital preservation tasks, such as file format identification, characterization, validation and normalization, into a single workflow."
+   		answer = "[Archivematica](https://www.archivematica.org/en/) is an open-source tool for processing digital archival materials for long-term preservation and access, including born-digital and digitized content. Archivematica is developed and maintained by Artefactual Systems Inc. Its primary function is to process data using a series of linked tasks called microservices to create Archival Information Packages (AIPs) for preservation and Dissemination Information Packages (DIPs) for access. It performs actions using a centralized Format Policy Registry (FPR) that is fully customizable based on institutional preferences. Archivematica integrates many individual open source tools for digital preservation tasks, such as file format identification, characterization, validation and normalization, into a single workflow."
 		id = "04"
 
    		[[params.faq.questions]]
@@ -236,17 +236,17 @@ googleAnalytics = ""
 
 		[[params.faq.questions]]
 		question = "Is Archivematica an access system or repository?"
-		answer = "No. Its main function is to produce well-formed data packages. It is not intended for end-users such as students or researchers and does not store the packages itself, though packages are searchable and downloadable through the interface. Hence, it must be connected to independent storage, which is why it pairs beautifully with the <a href='https://cloud.scholarsportal.info'>OLRC</a>, which provides access to secure, affordable and reliable storage. <br><br> On the access side, metadata about a stored AIP can be uploaded to <a href='https://www.accesstomemory.org/en/'>Access to Memory (AtoM)</a> instances as part of the Permafrost service, and the DIPs created using Archivematica can be manually uploaded or linked to by users to their locally hosted AtoM instance. Automatic integration with locally-hosted instances of AtoM is in testing. AtoM integration allows the deposit of digital objects and metadata in AtoM.<br><br> Integrations with different access systems or repositories as transfer sources for data are also possible. [Contact us](#contact) for more information."
+		answer = "No. Its main function is to produce well-formed data packages. It is not intended for end-users such as students or researchers and does not store the packages itself, though packages are searchable and downloadable through the interface. Hence, it must be connected to independent storage, which is why it pairs beautifully with the [Ontario Library Research Cloud](https://cloud.scholarsportal.info), which provides access to secure, affordable and reliable storage. <br><br> On the access side, metadata about a stored AIP can be uploaded to [Access to Memory (AtoM)](https://www.accesstomemory.org/en/) instances as part of the Permafrost service, and the DIPs created using Archivematica can be manually uploaded or linked to by users to their locally hosted AtoM instance. Automatic integration with locally-hosted instances of AtoM is in testing. AtoM integration allows the deposit of digital objects and metadata in AtoM.<br><br> Integrations with different access systems or repositories as transfer sources for data are also possible. [Contact us](#contact) for more information."
 		id = "11"
 
    		[[params.faq.questions]]
    		question = "What storage options do I have?"
-   		answer = "The default storage space is the <a href='https://cloud.scholarsportal.info'>Ontario Library Research Cloud</a>, which provides secure and affordable storage replicated across three nodes in Ontario. Permafrost users do not have to be OLRC subscribers. Other storage integrations are possible at extra cost in consultation with Scholars Portal."
+   		answer = "The default storage space is the [Ontario Library Research Cloud](https://cloud.scholarsportal.info), which provides secure and affordable storage replicated across three nodes in Ontario. Permafrost users do not have to be OLRC subscribers. Other storage integrations are possible at extra cost in consultation with Scholars Portal."
 		id = "12"
 
    		[[params.faq.questions]]
    		question = "What options do I have for giving access to preserved materials?"
-   		answer = "Metadata about a stored AIP can be uploaded to <a href='https://www.accesstomemory.org/en/'>Access to Memory (AtoM)</a> instances as part of the Permafrost service, and the DIPs created using Archivematica can be manually uploaded or linked to by users to their locally hosted AtoM instance. Automatic integration with locally-hosted instances of <a href='https://www.accesstomemory.org/en/'>Access to Memory (AtoM)</a> is in testing. Full AtoM integration allows the deposit of both access copies and metadata in AtoM.<br><br> Integrations with different access systems or repositories as transfer sources for data are also possible. [Contact us](#contact) for more information."
+   		answer = "Metadata about a stored AIP can be uploaded to [Access to Memory (AtoM)](https://www.accesstomemory.org/en/) instances as part of the Permafrost service, and the DIPs created using Archivematica can be manually uploaded or linked to by users to their locally hosted AtoM instance. Automatic integration with locally-hosted instances of AtoM is in testing. Full AtoM integration allows the deposit of both access copies and metadata in AtoM.<br><br> Integrations with different access systems or repositories as transfer sources for data are also possible. [Contact us](#contact) for more information."
 		id = "13"
 
    		[[params.faq.questions]]
@@ -293,20 +293,15 @@ googleAnalytics = ""
     [params.clients_list]
         enable = false
         title="Participating Institutions"
-        subtitle="The following institutions contributed financially and in kind to the development of the OLRC."
+        subtitle=""
 
     	# All the clients' logos are stored under 'static/img/logos'.
     	# Replace them with your clients's logos.
 
     	[[params.clients]]
-    		logo = "Carleton.jpg"
-    		link = "http://carleton.ca/"
-    		alt = "Carleton University"
-
-    	[[params.clients]]
-    		logo = "Guelph.jpg"
-    		link = "http://www.uoguelph.ca/"
-    		alt = "University of Guelph"
+    		logo = ""
+    		link = ""
+    		alt = ""
 
 
 	# Contact section
@@ -332,6 +327,7 @@ googleAnalytics = ""
 		[params.contact.form.message]
 			text = "Your Message *"
 			warning = "Please enter a message."
+
 
 	# Footer section
 	[params.footer]
