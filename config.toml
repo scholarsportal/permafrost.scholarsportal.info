@@ -84,8 +84,7 @@ googleAnalytics = ""
 
 	[params.headtext]
 	enable = true
-		description = "Academic libraries and archives across Ontario are the custodians of a remarkable variety of unique materials that represent the collective memory of their institutions and communities. Increasingly, these materials exist in digital form: either acquired through purchase or donation, or created by the institution itself as university records or as the output of digitization projects. All of these heterogeneous digital objects require robust tools, systems and infrastructure for long-term preservation to ensure they remain accessible into the future.<br><br>Permafrost provisions a suite of tools, training and resources to enable members of the Ontario Council of University Libraries to begin actively processing digital objects for long-term preservation and access."
-
+		description = "Academic libraries and archives across Ontario are the custodians of a remarkable variety of unique materials that represent the collective memory of their institutions and communities. Increasingly, these materials exist in digital form: either acquired through purchase or donation, or created by the institution itself as university records or as the output of digitization projects. All of these heterogeneous digital objects require robust tools, systems and infrastructure for long-term preservation to ensure they remain accessible into the future.<br><br>Permafrost provisions a suite of tools, training and resources to enable members of the Ontario Council of University Libraries to begin actively processing digital objects for long-term preservation and access.<br><br><em>The Permafrost service is currently being rolled out in production to existing pilot test sites. New clients will be accepted in September 2018. Please [contact us](#contact) to express interest in using the service!</em>"
 
 	# Benefits section
 	[params.services]
@@ -149,7 +148,7 @@ googleAnalytics = ""
 		[[params.about.events]]
 			img = "atom.png"
 			title = "Access"
-			description = "We support integration with locally-hosted <a href='https://www.accesstomemory.org/en/'>Access to Memory (AtoM)</a> instances by default so you can make your materials accessible to users."
+			description = "We support metadata-only integration with locally-hosted <a href='https://www.accesstomemory.org/en/'>Access to Memory (AtoM)</a> instances so you can make your materials accessible to users. Full AtoM integration workflows are in testing."
 
 		[[params.about.events]]
 			img = "reporting.png"
@@ -222,7 +221,7 @@ googleAnalytics = ""
 
 		[[params.faq.questions]]
 		question = "What onboarding resources are provided?"
-		answer = "Onboarding with the service includes an initial needs assessment interview to benchmark the participant's current capacity, document their needs, and set goals for uses of the service. This interview is followed by an introductory training session. Additional onboarding consultation lasts for the first twelve weeks of service use, and includes consultation on settings, transfer structure, metadata entry, connections to AtoM, file format policies, and validation of stored AIPs and DIPs."
+		answer = "Onboarding with the service includes an initial needs assessment interview to benchmark the participant's current capacity, document their needs, and set goals for uses of the service. This interview is followed by an introductory training session. Additional onboarding consultation lasts for the first twelve weeks of service use, and includes consultation on settings, transfer structure, metadata entry, DIP metadata upload to AtoM, file format policies, and validation of stored AIPs and DIPs."
 		id = "08"
 
 		[[params.faq.questions]]
@@ -237,7 +236,7 @@ googleAnalytics = ""
 
 		[[params.faq.questions]]
 		question = "Is Archivematica an access system or repository?"
-		answer = "No. Its main function is to produce well-formed data packages. It is not intended for end-users such as students or researchers and does not store the packages itself, though packages are accessible through the interface. Hence, it must be connected to independent storage, which is why it pairs beautifully with the <a href='https://cloud.scholarsportal.info'>OLRC</a>, which provides access to secure, affordable and reliable storage. <br><br> However, integration with locally-hosted instances of <a href='https://www.accesstomemory.org/en/'>AccesstoMemory (AtoM)</a> is part of the service. AtoM integration allows the deposit of digital objects and metadata in an AtoM instance, which is intended for use by the public to access archival descriptions and digital objects."
+		answer = "No. Its main function is to produce well-formed data packages. It is not intended for end-users such as students or researchers and does not store the packages itself, though packages are searchable and downloadable through the interface. Hence, it must be connected to independent storage, which is why it pairs beautifully with the <a href='https://cloud.scholarsportal.info'>OLRC</a>, which provides access to secure, affordable and reliable storage. <br><br> On the access side, metadata about a stored AIP can be uploaded to <a href='https://www.accesstomemory.org/en/'>Access to Memory (AtoM)</a> instances as part of the Permafrost service, and the DIPs created using Archivematica can be manually uploaded or linked to by users to their locally hosted AtoM instance. Automatic integration with locally-hosted instances of AtoM is in testing. AtoM integration allows the deposit of digital objects and metadata in AtoM.<br><br> Integrations with different access systems or repositories as transfer sources for data are also possible. [Contact us](#contact) for more information."
 		id = "11"
 
    		[[params.faq.questions]]
@@ -247,7 +246,7 @@ googleAnalytics = ""
 
    		[[params.faq.questions]]
    		question = "What options do I have for giving access to preserved materials?"
-   		answer = "Integration with locally-hosted instances of <a href='https://www.accesstomemory.org/en/'>Access to Memory (AtoM)</a> are part of the service. AtoM integration allows the deposit of digital objects and metadata in AtoM.<br><br> Integrations with different access systems or repositories as transfer sources for data are also possible. Contact us for more information."
+   		answer = "Metadata about a stored AIP can be uploaded to <a href='https://www.accesstomemory.org/en/'>Access to Memory (AtoM)</a> instances as part of the Permafrost service, and the DIPs created using Archivematica can be manually uploaded or linked to by users to their locally hosted AtoM instance. Automatic integration with locally-hosted instances of <a href='https://www.accesstomemory.org/en/'>Access to Memory (AtoM)</a> is in testing. Full AtoM integration allows the deposit of both access copies and metadata in AtoM.<br><br> Integrations with different access systems or repositories as transfer sources for data are also possible. [Contact us](#contact) for more information."
 		id = "13"
 
    		[[params.faq.questions]]
@@ -262,7 +261,7 @@ googleAnalytics = ""
 
    		[[params.faq.questions]]
    		question = "What is the difference between hardware sizes?"
-   		answer = "Archivematica runs on virtual machines that are hosted on servers at Scholars Portal. Not all institutions need a full-capacity machine running at all times. A large machine will be able to process larger-sized transfers or transfers with many files more quickly. A medium sized machine is suitable for transfers up to 5 GB in size. A small machine is suitable for transfers under 1 GB."
+   		answer = "Archivematica runs on virtual machines that are hosted at Scholars Portal. Not all institutions need a full-capacity machine running at all times. A large machine will be able to process larger-sized transfers or transfers with many files more quickly and is recommended for organizations with greater quantities of audio and video. A medium sized machine is suitable for multimedia transfers up to 5 GB in size. A small machine is suitable for small transfer packages mostly consisting of text and photographs under 1 GB. Part of the onboarding process will involve assessing what machine is right for your needs."
 		id = "16"
 
    		[[params.faq.questions]]
