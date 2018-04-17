@@ -396,6 +396,10 @@ header .intro-text .intro-heading {
     background: #24668a;
 }
 
+.portfolio-modal .modal-content p:not(.item-intro) {
+    text-align: left;
+}
+
 .timeline>li .timeline-image {
     background-color: #fff;
 }
