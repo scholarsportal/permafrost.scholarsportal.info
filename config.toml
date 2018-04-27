@@ -33,7 +33,7 @@ googleAnalytics = ""
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-	email = "grant@scholarsportal.info"
+	email = "permafrost@scholarsportal.info"
 
     # Link custom assets relative to /static
     custom_css = ["css/custom.css"]
