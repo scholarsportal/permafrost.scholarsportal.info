@@ -252,7 +252,7 @@ section#headtext {
 
     .navbar-default {
         border-color: transparent;
-        background-color: #222;
+        background-color: #ececec;
         padding: 0;
         height: auto !important;
     }
@@ -276,7 +276,7 @@ section#headtext {
 
     .navbar-brand img {
         width: 45px;
-        margin: 0;
+        margin: 10px;
     }
 }
 
