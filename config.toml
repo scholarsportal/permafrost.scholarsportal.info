@@ -1,7 +1,7 @@
 # Site settings
 #baseurl = "http://localhost/permafrost/public/"
-baseurl = "https://staticdev.scholarsportal.info/permafrost-public/"
-#baseurl = "https://permafrost.scholarsportal.info/"
+#baseurl = "https://staticdev.scholarsportal.info/permafrost-public/"
+baseurl = "https://permafrost.scholarsportal.info/"
 title = "Permafrost"
 languageCode = "en-us"
 theme = "hugo-agency-theme"

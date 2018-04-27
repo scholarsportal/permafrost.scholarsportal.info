@@ -259,7 +259,6 @@ section#headtext {
 
     .navbar-collapse.in {
         overflow-y: auto !important;
-        background-color: #222;
     }
 
     .navbar .container {
@@ -348,7 +347,7 @@ header .intro-text .intro-heading {
 @media(max-width:568px) {
     header .intro-text {
         padding-top: 50px;
-        padding-bottom: 200px;
+        padding-bottom: 50px;
     }
 
     header .intro-text img {
