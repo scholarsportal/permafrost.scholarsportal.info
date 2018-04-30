@@ -472,6 +472,10 @@ ul.social-buttons {
     margin-bottom: 0;
 }
 
+ul.social-buttons li a {
+    background-color: #5a5b5e;
+}
+
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
