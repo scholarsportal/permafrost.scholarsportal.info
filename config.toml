@@ -84,7 +84,7 @@ googleAnalytics = "UA-9010354-12"
 
 	[params.headtext]
 	enable = true
-		description = "Academic libraries and archives across Ontario are the custodians of a remarkable variety of unique materials that represent the collective memory of their institutions and communities. Increasingly, these materials exist in digital form: either acquired through purchase or donation, or created by the institution itself as university records or as the output of digitization projects. All of these heterogeneous digital objects require robust tools, systems and infrastructure for long-term preservation to ensure they remain accessible into the future.<br><br>Permafrost provisions a suite of tools, training and resources to enable members of the Ontario Council of University Libraries to begin actively processing digital objects for long-term preservation and access.<br><br><em>Permafrost is currently transitioning into a production service. New clients will be accepted beginning in September 2018. Please [contact us](#contact) to express interest in using the service!</em>"
+		description = "Academic libraries and archives across Ontario are the custodians of a remarkable variety of unique materials that represent the collective memory of their institutions and communities. Increasingly, these materials exist in digital form: either acquired through purchase or donation, or created by the institution itself as university records or as the output of digitization projects. All of these heterogeneous digital objects require robust tools, systems and infrastructure for long-term preservation to ensure they remain accessible into the future.<br><br>Permafrost provisions a suite of tools, training and resources to enable members of the Ontario Council of University Libraries to begin actively processing digital objects for long-term preservation and access.<br><br><b>Permafrost is now available to OCUL members. Interested in subscribing? Please [contact us](#contact) to express interest in using the service! Want a demo? [Request access](#contact) to our sandbox!</b>"
 
 	# Benefits section
 	[params.services]
@@ -271,7 +271,7 @@ googleAnalytics = "UA-9010354-12"
 
 		[[params.faq.questions]]
    		question = "I'm interested. How do I get started?"
-   		answer = "Please [contact us](#contact) to express interest. Permafrost will be open to new clients in September 2018."
+   		answer = "Please [contact us](#contact) to express interest. Access to a sandbox instance is also available for those interested in a demonstration."
 		id = "18"
 
 
