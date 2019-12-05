@@ -310,7 +310,7 @@ googleAnalytics = ""
 
 	# Partners section
     [params.clients_list]
-        enable = false
+        enable = true
         title="Participating Institutions"
         subtitle=""
 
@@ -318,10 +318,54 @@ googleAnalytics = ""
     	# Replace them with your clients's logos.
 
     	[[params.clients]]
-    		logo = ""
-    		link = ""
-    		alt = ""
+    		logo = "Algoma.png"
+    		link = "https://www.algomau.ca/"
+    		alt = "Algoma University"
 
+    	[[params.clients]]
+    		logo = "Brock.png"
+    		link = "https://brocku.ca/"
+    		alt = "Brock University"
+
+    	[[params.clients]]
+    		logo = "Carleton.jpg"
+    		link = "https://carleton.ca/"
+    		alt = "Carleton University"
+
+		[[params.clients]]
+    		logo = "Lakehead.png"
+    		link = "https://www.lakeheadu.ca/"
+    		alt = "Lakehead University"
+
+    	[[params.clients]]
+    		logo = "Ottawa.png"
+    		link = "https://www.uottawa.ca/"
+    		alt = "University of Ottawa"
+
+    	[[params.clients]]
+    		logo = "Queens.png"
+    		link = "https://www.queensu.ca/"
+    		alt = "Queen's University"
+
+    	[[params.clients]]
+    		logo = "Toronto.png"
+    		link = "https://www.utoronto.ca/"
+    		alt = "University of Toronto"
+
+    	[[params.clients]]
+    		logo = "Waterloo.png"
+    		link = "https://uwaterloo.ca/"
+    		alt = "University of Waterloo"
+
+    	[[params.clients]]
+    		logo = "Laurier.png"
+    		link = "https://www.wlu.ca/"
+    		alt = "Wilfrid Laurier University"
+
+    	[[params.clients]]
+    		logo = "Windsor.jpg"
+    		link = "http://www.uwindsor.ca/"
+    		alt = "University of Windsor"
 
 	# Contact section
 	[params.contact]
