@@ -121,7 +121,7 @@ googleAnalytics = ""
 			[[params.services.row.list]]
                 icon = "fa-archive"
                 title = "Preserved"
-                description = "Standards-based, open source tools for preservation processing means that your collections will be maintained and accessible for the future."
+                description = "Standards-based, open source tools for preservation processing means that your collections will be accessible for the future."
 
     # Features section
 	[params.about]
@@ -142,12 +142,12 @@ googleAnalytics = ""
 		[[params.about.events]]
 			img = "olrc-logo.png"
 			title = "OLRC"
-			description = "Participants access [the Ontario Library Research Cloud](https://cloud.scholarsportal.info) for storage, a secure and affordable private cloud created and hosted by libraries in Ontario."
+			description = "Participants access [the Ontario Library Research Cloud](https://cloud.scholarsportal.info) for storage, a secure and affordable private cloud developed and operated by libraries in Ontario."
 
 		[[params.about.events]]
 			img = "training.png"
 			title = "Training"
-			description = "Training resources include initial onboarding and consultation sessions and a four-month hands-on consultation window. Additional training is available in person and online as needed."
+			description = "Training resources include initial onboarding and hands-on consultation sessions. Additional training is available in person and online as needed."
 
 		[[params.about.events]]
 			img = "resources.png"
@@ -157,7 +157,7 @@ googleAnalytics = ""
 		[[params.about.events]]
 			img = "atom.png"
 			title = "Access"
-			description = "We support metadata-only integration with locally-hosted [Access to Memory (AtoM)](https://www.accesstomemory.org/en/) instances so you can make your materials accessible to users. Full AtoM integration workflows are in testing."
+			description = "We support several integration options for locally-hosted [Access to Memory (AtoM)](https://www.accesstomemory.org/en/) instances so you can make your materials accessible to users."
 
 		[[params.about.events]]
 			img = "reporting.png"
@@ -215,7 +215,7 @@ googleAnalytics = ""
 
    		[[params.faq.questions]]
    		question = "What does an Archival Information Package (AIP) consist of?"
-   		answer = "An AIP consists of the original data objects and other materials that make up the original transfer, optionally normalized copies of data objects in preservation-friendly formats, submission documentation, logs, and a METS-based XML file describing the package’s contents, the relationships between these contents, and the actions performed on the contents as part of the Archivematica workflow."
+   		answer = "An AIP consists of the original data objects to be preserved and other materials that made up the original transfer, optionally normalized copies of data objects in preservation-friendly formats, submission documentation, logs, and a METS-based XML file describing the package’s contents, the relationships between these contents, and the actions performed on the contents as part of the Archivematica workflow."
 		id = "05"
 
    		[[params.faq.questions]]
@@ -225,12 +225,12 @@ googleAnalytics = ""
 
 		[[params.faq.questions]]
 		question = "What other tools does Permafrost provide?"
-		answer = "Permafrost provides a lightweight tool for making Archivematica-friendly CSV files for descriptive metadata import, and access to tools related to the OLRC, such as Swiftbrowser, a browser-based method of transfering data into Archivematica and accessing stored packages. Additional tools are in development."
+		answer = "Permafrost provides a lightweight tool for making Archivematica-friendly CSV files for descriptive metadata import, and access to tools related to the OLRC, such as Swiftbrowser, a browser-based method of transfering data into Archivematica."
 		id = "07"
 
 		[[params.faq.questions]]
 		question = "What onboarding resources are provided?"
-		answer = "Onboarding with the service includes an initial needs assessment interview to benchmark the participant's current capacity, document their needs, and set goals for uses of the service. This interview is followed by an introductory training session. Additional onboarding consultation lasts for the first twelve weeks of service use, and includes consultation on settings, transfer structure, metadata entry, DIP metadata upload to AtoM, file format policies, and validation of stored AIPs and DIPs."
+		answer = "Onboarding with the service includes an initial needs assessment interview to benchmark the participant's current capacity, document their needs, and set goals for uses of the service. This interview is followed by an introductory training session. Additional onboarding consultation lasts for the first twelve weeks of service use, and includes consultation on settings, transfer structure, metadata entry, access workflows, file format policies, and validation of stored AIPs and DIPs."
 		id = "08"
 
 		[[params.faq.questions]]
@@ -240,12 +240,12 @@ googleAnalytics = ""
 
 		[[params.faq.questions]]
 		question = "What technical support is provided?"
-		answer = "Technical support is provided for troubleshooting transfer errors and failures, user creation and management, system monitoring and maintenance, and system updates within six months of new releases."
+		answer = "Technical support is always provided for troubleshooting transfer errors and failures, user creation and management, and system monitoring and maintenance. We also keep Archives instances updated to the newest version within six months of releases."
 		id = "10"
 
 		[[params.faq.questions]]
 		question = "Is Archivematica an access system or repository?"
-		answer = "No. Its main function is to produce well-formed data packages. It is not intended for end-users such as students or researchers and does not store the packages itself, though packages are searchable and downloadable through the interface. Hence, it must be connected to independent storage, which is why it pairs beautifully with the [Ontario Library Research Cloud](https://cloud.scholarsportal.info), which provides access to secure, affordable and reliable storage. <br><br> On the access side, metadata about a stored AIP can be uploaded to [Access to Memory (AtoM)](https://www.accesstomemory.org/en/) instances as part of the Permafrost service, and the DIPs created using Archivematica can be manually uploaded or linked to by users to their locally hosted AtoM instance. Automatic integration with locally-hosted instances of AtoM is in testing. Automatic AtoM integration allows the deposit of digital objects and metadata in AtoM.<br><br> Integrations with different access systems or repositories as transfer sources for data are also possible. [Contact us](#contact) for more information."
+		answer = "No. Its main function is to produce well-formed data packages suitable for long-term preservation. It is not intended for end-users such as students or researchers and does not store the packages itself, though packages are searchable and downloadable through the interface. Hence, it must be connected to independent storage, which is why it pairs beautifully with the [Ontario Library Research Cloud](https://cloud.scholarsportal.info), which provides access to secure, affordable and reliable storage. <br><br> On the access side, metadata about a stored AIP can be uploaded to [Access to Memory (AtoM)](https://www.accesstomemory.org/en/) instances as part of the Permafrost service, and several integration options are available for locally-hosted AtoM instances.<br><br> Integrations with different access systems or repositories as transfer sources for data are also possible. [Contact us](#contact) for more information."
 		id = "11"
 
    		[[params.faq.questions]]
@@ -255,7 +255,7 @@ googleAnalytics = ""
 
    		[[params.faq.questions]]
    		question = "What options do I have for giving access to preserved materials?"
-   		answer = "Metadata about a stored AIP can be uploaded to [Access to Memory (AtoM)](https://www.accesstomemory.org/en/) instances as part of the Permafrost service, and the DIPs created using Archivematica can be manually uploaded or linked to by users to their locally hosted AtoM instance. Automatic integration with locally-hosted instances of AtoM is in testing. Full AtoM integration allows the deposit of both access copies and metadata in AtoM.<br><br> Integrations with different access systems or repositories as transfer sources for data are also possible. [Contact us](#contact) for more information."
+   		answer = "Metadata about a stored AIP can be uploaded to [Access to Memory (AtoM)](https://www.accesstomemory.org/en/) instances as part of the Permafrost service, and several integration options are available for locally-hosted AtoM instances, including automatic deposit of access copies.<br><br> Integrations with different access systems or repositories as transfer sources for data are also possible. [Contact us](#contact) for more information."
 		id = "13"
 
    		[[params.faq.questions]]
@@ -265,7 +265,7 @@ googleAnalytics = ""
 
    		[[params.faq.questions]]
    		question = "If I want to get my data out, can I?"
-   		answer = "Absolutely. Permafrost does not keep your data within any proprietary system - data is stored outside of the Archivematica itself and your use of the Permafrost service is not locked in. However, systems-created data such as indexes cannot be extracted for users, though this can be re-generated from the stored AIPs themselves."
+   		answer = "Absolutely. Permafrost does not keep your data within any proprietary system - data is stored outside of the Archivematica application itself and your use of the Permafrost service is not locked in. However, systems-created data such as indexes cannot be extracted for users, though this can be re-generated from the stored AIPs themselves."
 		id = "15"
 
 		[[params.faq.questions]]
@@ -275,7 +275,7 @@ googleAnalytics = ""
 
    		[[params.faq.questions]]
    		question = "What is the difference between hardware sizes?"
-   		answer = "Archivematica runs on virtual machines that are hosted at Scholars Portal. Not all institutions need a full-capacity machine running at all times. A large machine will be able to process larger-sized transfers or transfers with many files more quickly and is recommended for organizations with greater quantities of audio and video. A medium sized machine is suitable for multimedia transfers up to 5 GB in size. A small machine is suitable for small transfer packages mostly consisting of text and photographs under 1 GB. Part of the onboarding process will involve assessing what machine is right for your needs."
+   		answer = "Archivematica runs on virtual machines that are hosted at Scholars Portal. The size of the hardware required relates to the size and quantity of files to be processed, so subscribers should have a good sense of extent the materials they intend to process. A Level 1 machine is most comfortably used for packages in the 0-50 GB range and consisting of fewer than 500 files. A Level 2 machine will be able to process larger-sized transfers over 50 GB or with more individual files and is recommended for organizations with greater quantities of audio and video or greater quantities of files. Part of the onboarding process will involve assessing what machine is right for your needs."
 		id = "17"
 
    		[[params.faq.questions]]
@@ -287,7 +287,6 @@ googleAnalytics = ""
    		question = "I'm interested. How do I get started?"
    		answer = "Please [contact us](#contact) to express interest. Access to a sandbox instance is also available for those interested in a demonstration."
 		id = "19"
-
 
 	# Team section (disabled)
 	[params.team]
