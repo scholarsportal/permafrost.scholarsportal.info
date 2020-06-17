@@ -367,6 +367,11 @@ googleAnalytics = ""
     		alt = "Wilfrid Laurier University"
 
     	[[params.clients]]
+    		logo = "Western.png"
+    		link = "https://www.uwo.ca/"
+    		alt = "Western University"
+
+    	[[params.clients]]
     		logo = "Windsor.jpg"
     		link = "http://www.uwindsor.ca/"
     		alt = "University of Windsor"
