@@ -45,6 +45,11 @@ googleAnalytics = ""
     custom_css = ["css/custom.css"]
     custom_js  = []
 
+	# 404 error customization
+	[params.error404]
+		heading = "Page not found"
+		text = "Return to [the home page](/)."
+
 	# Optional piwik tracking
 	[params.analytics.piwik]
 	  URL = "https://analytics.scholarsportal.info"
@@ -403,13 +408,13 @@ googleAnalytics = ""
 
 	# Footer section
 	[params.footer]
-    enable = true
+    	enable = true
 		copyright = "&copy; Ontario Council of University Libraries"
-    secondcopyright = "Scholars Portal"
+    	secondcopyright = "Scholars Portal"
 		logo = "ocul.png"
-    secondlogo = "sp.png"
-		link = "http://ocul.on.ca"
-    secondlink = "http://scholarsportal.info/"
+    	secondlogo = "sp.png"
+		link = "https://ocul.on.ca"
+    	secondlink = "https://scholarsportal.info/"
 
 		[[params.footer.social]]
 			icon = "fa-twitter"
