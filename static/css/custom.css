@@ -403,6 +403,19 @@ header .intro-text .intro-heading {
     height: 100%;
 }
 
+.portfolio-heading {
+    font-size: 18px;
+    text-transform: none;
+    margin: 0;
+}
+
+.timeline .timeline-heading h3.subheading {
+    text-transform: none;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
 .timeline>li .timeline-image {
     background-color: #fff;
 }
@@ -452,6 +465,19 @@ td {
 
 .tab-indent {
     text-indent: 1.5em;
+}
+
+section p.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.service-heading {
+    font-size: 18px;
 }
 
 section.clients img {

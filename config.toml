@@ -381,6 +381,17 @@ googleAnalytics = ""
     		link = "http://www.uwindsor.ca/"
     		alt = "University of Windsor"
 
+		# Funding source logos
+		[params.subclients_list]
+			enable = false
+			title = ""
+			subtitle = ""
+
+			[[params.subclient1]]
+				link = ""
+				logo = ""
+				alt = ""
+
 	# Contact section
 	[params.contact]
     enable = true

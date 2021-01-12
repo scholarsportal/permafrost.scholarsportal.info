@@ -5,13 +5,14 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">{{ with .Site.Params.pricing.title }}{{ . | markdownify }}{{ end }}</h2>
-                <h3 class="section-subheading text-mutedwith ">{{ with .Site.Params.pricing.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+                <p class="section-subheading text-mutedwith ">{{ with .Site.Params.pricing.subtitle }}{{ . | markdownify }}{{ end }}</p>
             </div>
         </div>
 
         <div class="col-sm-8 col-sm-offset-2 pricing">
 
             <h3>Setup</h3>
+
             <p>One-time cost of $2500 for 37 hours of systems and client support time.</p>
 
             <p>Systems setup includes installation and configuration activities, optional connection to a local AtoM instance, and user creation.</p>
@@ -21,6 +22,7 @@
             <p>Additional integrations such as DSpace, automated workflows or connecting with local storage available at additional cost based on hours worked.</p>
 
             <h3>Training (Optional)</h3>
+
             <p>$300 per day plus travel and expenses (in person); $65 per hour
             online training.</p>
 
@@ -90,7 +92,6 @@
                     <td>$8,000</td>
                 </tr>
             </table>
-
         </div>
     </div>
 </section>
