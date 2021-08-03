@@ -283,7 +283,7 @@ googleAnalytics = ""
 
    		[[params.faq.questions]]
    		question = "What is the difference between hardware sizes?"
-   		answer = "Archivematica runs on virtual machines that are hosted at Scholars Portal. The size of the hardware required relates to the size and quantity of files to be processed, so subscribers should have a good sense of extent the materials they intend to process. A Level 1 machine is most comfortably used for packages in the 0-50 GB range and consisting of fewer than 500 files. A Level 2 machine will be able to process larger-sized transfers of 50-250 GB and is recommended for organizations with greater quantities of audio and video or greater quantities of files. Part of the onboarding process will involve assessing what machine is right for your needs."
+   		answer = "Archivematica instances are run as virtual machines that are hosted at Scholars Portal. The size of the hardware required relates to the size and quantity of the files to be processed, so subscribers should have a good sense of extent the materials they intend to process. A Level 1 instance can be used for packages up to 50 GB in size or containing up to 3,000 files. A Level 2 instance will be able to process transfers up to 250 GB in size and up to 10,000 files. Level 2 instances are recommended for organizations with large audiovisual files or greater numbers of files. Part of the onboarding process will involve assessing what machine is right for your needs."
 		id = "17"
 
    		[[params.faq.questions]]
