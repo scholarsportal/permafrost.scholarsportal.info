@@ -4,8 +4,6 @@ baseurl = "https://permafrost.scholarsportal.info/"
 title = "Permafrost"
 languageCode = "en-us"
 theme = "hugo-agency-theme"
-# Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
 
 [markup]
   [markup.goldmark]
@@ -24,7 +22,7 @@ googleAnalytics = ""
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "Permafrost"
-	description = ""
+	description = "Permafrost provisions a suite of tools, training and resources to enable members of the Ontario Council of University Libraries to begin actively processing digital objects for long-term preservation and access. It is operated by Scholars Portal on a cost-recovery basis."
 
 	# Since this template is static, the contact form uses www.formspree.io as a
 	# proxy. The form makes a POST request to their servers to send the actual
@@ -86,7 +84,6 @@ googleAnalytics = ""
         name = "Login <i class=\"fa fa-external-link\" aria-hidden=\"true\"></i>"
         weight = 10
 
-
 	# Hero section
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
@@ -98,10 +95,9 @@ googleAnalytics = ""
 		[[params.hero.logo]]
 			img = "logo.png"
 
-
 	[params.headtext]
 	enable = true
-		description = "Academic libraries and archives across Ontario are the custodians of a remarkable variety of unique materials that represent the collective memory of their institutions and communities. Increasingly, these materials exist in digital form: either acquired through purchase or donation, or created by the institution itself as university records or as the output of digitization projects. All of these heterogeneous digital objects require robust tools, systems and infrastructure for long-term preservation to ensure they remain accessible into the future.<br><br>Permafrost provisions a suite of tools, training and resources to enable members of the Ontario Council of University Libraries to begin actively processing digital objects for long-term preservation and access. It is operated by Scholars Portal on a cost-recovery basis<br><br>**- Want to learn more?** Watch our [introductory video](https://youtu.be/VE1cARC7wqk).<br>**- Want a demo?** [Request access](#contact) to our sandbox! <br>**- Interested in subscribing?** Please [contact us](#contact) to express interest in using the service!"
+		description = "Academic libraries and archives across Ontario are the custodians of a remarkable variety of unique materials that represent the collective memory of their institutions and communities. Increasingly, these materials exist in digital form: either acquired through purchase or donation, or created by the institution itself as university records or as the output of digitization projects. All of these heterogeneous digital objects require robust tools, systems and infrastructure for long-term preservation to ensure they remain accessible into the future.<br><br>Permafrost provisions a suite of tools, training and resources to enable members of the Ontario Council of University Libraries to begin actively processing digital objects for long-term preservation and access. It is operated by Scholars Portal on a cost-recovery basis.<br><br>**- Want to learn more?** Watch our [introductory video](https://youtu.be/VE1cARC7wqk).<br>**- Want a demo?** [Request access](#contact) to our sandbox! <br>**- Interested in subscribing?** Please [contact us](#contact) to express interest in using the service!"
 
 	# Benefits section
 	[params.services]
@@ -252,9 +248,9 @@ googleAnalytics = ""
 		id = "10"
 
 		[[params.faq.questions]]
-   	question = "What storage options do I have?"
-   	answer = "The default storage space is the [Ontario Library Research Cloud](https://cloud.scholarsportal.info), which provides secure and affordable storage replicated across three nodes in Ontario. Permafrost users do not have to be OLRC subscribers. Other storage integrations are possible at extra cost in consultation with Scholars Portal."
-   	id = "11"
+		question = "What storage options do I have?"
+		answer = "The default storage space is the [Ontario Library Research Cloud](https://cloud.scholarsportal.info), which provides secure and affordable storage replicated across three nodes in Ontario. Permafrost users do not have to be OLRC subscribers. Other storage integrations are possible at extra cost in consultation with Scholars Portal."
+		id = "11"
 
 		[[params.faq.questions]]
 		question = "Is Archivematica an access system or repository?"
