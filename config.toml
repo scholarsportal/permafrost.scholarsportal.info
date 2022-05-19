@@ -145,12 +145,12 @@ googleAnalytics = ""
 		[[params.about.events]]
 			img = "archivematica.png"
 			title = "Archivematica"
-			description = "Permafrost’s central function is provisioning hosted instances of the preservation package generator [Archivematica](https://www.archivematica.org/en/), a standards-based workflow tool for producing preservation-worthy packages of data for the future. Multiple instances are available at reduced cost for institutions with a variety of needs."
+			description = "Permafrost’s central function is provisioning hosted instances of the digital preservation processing tool [Archivematica](https://www.archivematica.org/en/), which offers a standards-based workflow for producing preservation-worthy packages of data for long-term storage. Multiple instances are available at reduced cost for institutions with a variety of needs."
 
 		[[params.about.events]]
 			img = "olrc-logo.png"
 			title = "OLRC"
-			description = "Participants access [the Ontario Library Research Cloud](https://cloud.scholarsportal.info) for storage, a secure and affordable private cloud developed and operated by libraries in Ontario."
+			description = "Participants access [the Ontario Library Research Cloud](https://cloud.scholarsportal.info) for storage, a secure and affordable private cloud developed and operated by libraries in Ontario. Permafrost makes use of a locally-hosted instance of [DuraCloud](https://duraspace.org/duracloud/) in combination with the OLRC for reliable preservation storage management."
 
 		[[params.about.events]]
 			img = "training.png"
@@ -165,7 +165,7 @@ googleAnalytics = ""
 		[[params.about.events]]
 			img = "atom.png"
 			title = "Access"
-			description = "We support several integration options for locally-hosted [Access to Memory (AtoM)](https://www.accesstomemory.org/en/) instances so you can make your materials accessible to users."
+			description = "Permafrost supports multiple ways to make digital collections accessible to your user community, including the automated creation of access copies; the ability to create, share, import and stream links to files  in the OLRC; and integration options for locally-hosted [Access to Memory (AtoM)](https://www.accesstomemory.org/en/) instances."
 
 		[[params.about.events]]
 			img = "reporting.png"
@@ -233,37 +233,37 @@ googleAnalytics = ""
 
 		[[params.faq.questions]]
 		question = "What other tools does Permafrost provide?"
-		answer = "Permafrost provides a lightweight tool for making Archivematica-friendly CSV files for descriptive metadata import, and access to tools related to the OLRC, such as Swiftbrowser, a browser-based method of transfering data into Archivematica."
+		answer = "Permafrost provides a lightweight tool for making Archivematica-friendly CSV files for descriptive metadata import, and access to tools related to the OLRC, such as Horizon, a browser-based method of transfering data into Archivematica."
 		id = "07"
 
 		[[params.faq.questions]]
 		question = "What onboarding resources are provided?"
-		answer = "Onboarding with the service includes an initial needs assessment interview to benchmark the participant's current capacity, document their needs, and set goals for uses of the service. This interview is followed by an introductory training session. Additional onboarding consultation lasts for the first twelve weeks of service use, and includes consultation on settings, transfer structure, metadata entry, access workflows, file format policies, and validation of stored AIPs and DIPs."
+		answer = "Onboarding with the service includes an optional initial needs assessment interview to benchmark the participant's current capacity, document their needs, and set goals for uses of the service. This interview is followed by an introductory training session. Additional onboarding support lasts for the first twelve weeks of service use, and includes consultation on settings, transfer structure, metadata entry, access workflows, file format policies, and validation of stored AIPs and DIPs."
 		id = "08"
 
 		[[params.faq.questions]]
 		question = "What training resources are provided?"
-		answer = "Initial onboarding training, including an introductory session to Archivematica and Permafrost is part of the service. Additional training following the onboarding period can be arranged in person or online at cost."
+		answer = "Initial onboarding training, including an introductory session to the OLRC and Archivematica, is part of the service. New staff members assigned to the service can also take part in onboarding sessions as needed. Access to recorded community webinars on special topics is also available. Additional specialized training and consultation can be arranged in person or online."
 		id = "09"
 
 		[[params.faq.questions]]
 		question = "What technical support is provided?"
-		answer = "Technical support is always provided for troubleshooting transfer errors and failures, user creation and management, and system monitoring and maintenance. We also keep Archives instances updated to the newest version within six months of releases."
+		answer = "Technical support is always provided for troubleshooting transfer errors and failures, user creation and management, file format conversion tools for preservation and access, and systems monitoring and maintenance. We also keep Archives instances updated to the newest version within six months of releases."
 		id = "10"
 
 		[[params.faq.questions]]
-		question = "Is Archivematica an access system or repository?"
-		answer = "No. Its main function is to produce well-formed data packages suitable for long-term preservation. It is not intended for end-users such as students or researchers and does not store the packages itself, though packages are searchable and downloadable through the interface. Hence, it must be connected to independent storage, which is why it pairs beautifully with the [Ontario Library Research Cloud](https://cloud.scholarsportal.info), which provides access to secure, affordable and reliable storage. <br><br> On the access side, metadata about a stored AIP can be uploaded to [Access to Memory (AtoM)](https://www.accesstomemory.org/en/) instances as part of the Permafrost service, and several integration options are available for locally-hosted AtoM instances.<br><br> Integrations with different access systems or repositories as transfer sources for data are also possible. [Contact us](#contact) for more information."
-		id = "11"
+   	question = "What storage options do I have?"
+   	answer = "The default storage space is the [Ontario Library Research Cloud](https://cloud.scholarsportal.info), which provides secure and affordable storage replicated across three nodes in Ontario. Permafrost users do not have to be OLRC subscribers. Other storage integrations are possible at extra cost in consultation with Scholars Portal."
+   	id = "11"
 
-   		[[params.faq.questions]]
-   		question = "What storage options do I have?"
-   		answer = "The default storage space is the [Ontario Library Research Cloud](https://cloud.scholarsportal.info), which provides secure and affordable storage replicated across three nodes in Ontario. Permafrost users do not have to be OLRC subscribers. Other storage integrations are possible at extra cost in consultation with Scholars Portal."
+		[[params.faq.questions]]
+		question = "Is Archivematica an access system or repository?"
+		answer = "No. Archivematica's main function is to produce well-formed data packages suitable for long-term preservation. It is not intended for end-users such as students or researchers and does not store the packages itself, though packages are searchable and downloadable through the interface. Hence, it must be connected to independent storage, which is why it pairs beautifully with the [Ontario Library Research Cloud](https://cloud.scholarsportal.info), which provides access to secure, affordable and reliable storage. <br><br> See 'What options do I have for giving access to preserved materials?' below for more information on access options."
 		id = "12"
 
    		[[params.faq.questions]]
    		question = "What options do I have for giving access to preserved materials?"
-   		answer = "Metadata about a stored AIP can be uploaded to [Access to Memory (AtoM)](https://www.accesstomemory.org/en/) instances as part of the Permafrost service, and several integration options are available for locally-hosted AtoM instances, including automatic deposit of access copies.<br><br> Integrations with different access systems or repositories as transfer sources for data are also possible. [Contact us](#contact) for more information."
+   		answer = "Archivematica can automatically create access copies which are stored in the OLRC as a DIP. Public access to these files can be extended through stable URLs that allow them to be shared or imported to digital repositories or exhibits. Audiovisual files can also be streamed directly from the OLRC.<br><br> In addition, metadata about a stored AIP can be uploaded to [Access to Memory (AtoM)](https://www.accesstomemory.org/en/) instances as part of the Permafrost service, and direct DIP deposit is possible for locally-hosted AtoM instances.<br><br> Integrations with different access systems or repositories as transfer sources for data are also possible. [Contact us](#contact) for more information."
 		id = "13"
 
    		[[params.faq.questions]]
@@ -278,7 +278,7 @@ googleAnalytics = ""
 
 		[[params.faq.questions]]
    		question = "How secure is Permafrost?"
-   		answer = "Archivematica instances are installed, hosted, and maintained by Scholars Portal on CentOS-based virtual machines installed on hardware at the University of Toronto Libraries’ data centre and supported by our systems team. Access to Archivematica instances are limited by OCUL member IP ranges and secured via SSL and user logins.<br><br>Upload and download to and from the OLRC is also secured by SSL. On the OLRC itself, network nodes in the storage cloud are connected through ORION, the high-speed research network that is supported by Ontario’s universities. Data is transferred between nodes over a private network within the ORION infrastructure.<br><br>All data centres involved in the service are restricted to IT staff and have intrusion detection systems (IDS) in place. Data centres implement standard security controls, including the use of firewalls, to limit inbound and outbound traffic to specific ports and from specific domains."
+   		answer = "Archivematica instances are installed, hosted, and maintained by Scholars Portal on virtual machines installed on hardware at the University of Toronto Libraries’ data centre and supported by our systems team. Access to Archivematica instances are limited by OCUL member IP ranges and secured via SSL and user logins.<br><br>Upload and download to and from the OLRC is also secured by SSL. On the OLRC itself, network nodes in the storage cloud are connected through ORION, the high-speed research network that is supported by Ontario’s universities. Data is transferred between nodes over a private network within the ORION infrastructure.<br><br>All data centres involved in the service are restricted to IT staff and have intrusion detection systems (IDS) in place. Data centres implement standard security controls, including the use of firewalls, to limit inbound and outbound traffic to specific ports and from specific domains. In addition, all data uploaded to the OLRC is encrypted at rest."
 		id = "16"
 
    		[[params.faq.questions]]
